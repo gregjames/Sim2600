@@ -5,13 +5,13 @@
 #  the cpu halfClkCount reaches about 11000
 #romFile = 'roms/SpaceInvaders.bin'
 #romFile = 'roms/Pitfall.bin'
-#romFile = 'DonkeyKong.bin'
+romFile = 'roms/DonkeyKong.bin'
 #  8kb ROM, spins reading 0x282 switches
-#romFile = 'Asteroids.bin'
+#romFile = 'roms/Asteroids.bin'
 #  2kb ROM
 #romFile = 'roms/Adventure.bin'
 
-romFile = 'roms/SpaceInvaders.bin'
+#romFile = 'roms/SpaceInvaders.bin'
 
 imageOutputDir = 'outFrames'
 
