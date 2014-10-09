@@ -33,6 +33,14 @@ numTIAHalfClocksPerRender = 128
 #   wireNames['A0'] = 737;  wireNames['A1'] = 1234
 #   wireNames['X3'] = 1648
 #
+# The node numbers are listed in the status pane of the 
+# visual6502.org simulation when you left-click the chip
+# image to select part of the circuit:
+#  http://visual6502.org/JSSim
+# The 6502 chip data, node numbers, and names are the same
+# here in this 2600 console simulation as they are in the 
+# visual6502 online javascript simulation.
+#
 #                  # A, X, and Y register bits from lsb to msb
 mos6502WireInit = [['A', 737, 1234, 978, 162, 727, 858, 1136, 1653],
                    ['X', 1216, 98, 1, 1648, 85, 589, 448, 777],
