@@ -100,7 +100,6 @@ http://www.computerarcheology.com/wiki/wiki/Atari2600/Asteroids/Code
 http://archive.archaeology.org/1107/features/mos_technology_6502_computer_chip_cpu.html
 
 === TODO === 
-Strip out the ^M characters on .py file line endings =/
 Support more bank switching techniques
 Finish the C++ version
 Lots more.  Drop us a line at visual6502 at gm ail * com if you like
