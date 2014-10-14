@@ -76,6 +76,8 @@ class ImageOpenGL(ImageBase):
         glEnable(GL_TEXTURE_2D)
         glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_REPLACE)
         glClear(GL_COLOR_BUFFER_BIT)
+        glutSwapBuffers()
+        glClear(GL_COLOR_BUFFER_BIT)
 
     def glutcb_display(self):
         """ Draws the image as the simulation runs """
